@@ -19,14 +19,18 @@ Example:
 AC - Acceptance Criteria
 -->
 
-## US1:
-- AC1.1:
-- AC1.2:
+### Feautre: 
+US1:
+- AC1.1: 
+- AC1.2: 
 
-## US2:
-- AC2.1:
-- AC2.2:
+### Feautre: 
+US2:
+- AC2.1: 
+- AC2.2: 
 
-## US3:
-- AC3.1:
-- AC3.2:
+### Feautre: 
+US3:
+- AC3.1: 
+- AC3.2: 
+
