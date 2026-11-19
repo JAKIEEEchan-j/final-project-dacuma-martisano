@@ -17,7 +17,7 @@ US1: As a customer, I want to see today's menu with prices so that I can decide 
 US - User Story
 -->
 
-### Feautre: 
+### Feature: 
 US1:
 
 US2:
