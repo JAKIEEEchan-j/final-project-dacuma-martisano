@@ -1,0 +1,44 @@
+/* ===== BASE: designed for phones first ===== */
+body {
+  font-family: Arial, sans-serif;  /* simple, easy-to-read font */
+  margin: 0;                       /* remove the default browser gap */
+  padding: 16px;                   /* space between the text and screen edge */
+  background-color: #f4f6f8;       /* light gray page background */
+  color: #222;                     /* dark text, easy to read */
+}
+
+/* ===== MAIN: keeps lines readable on big screens ===== */
+main {
+  max-width: 600px;  /* never wider than 600px */
+  margin: 0 auto;    /* center it on wide screens */
+}
+
+/* ===== ANNOUNCEMENT CARD: one box per announcement ===== */
+.announcement-card {
+  background-color: #fff;       /* white card */
+  border: 1px solid #ddd;       /* thin light border */
+  border-radius: 8px;           /* rounded corners */
+  padding: 12px 16px;           /* space inside the card */
+  margin-bottom: 12px;          /* space between cards */
+}
+
+/* ===== ANNOUNCEMENT DATE: smaller, softer text ===== */
+.announcement-date {
+  font-size: 0.875rem;  /* a bit smaller than normal text */
+  color: #555;          /* gray, but still readable */
+}
+
+/* ===== FULL DETAILS: the clickable label ===== */
+.announcement-card summary {
+  cursor: pointer;          /* shows a hand cursor on hover */
+  color: #0b5cad;           /* blue, so it looks clickable */
+  font-weight: bold;        /* makes the label stand out */
+  padding: 8px 0;           /* bigger area to tap on a phone */
+}
+
+/* ===== FULL DETAILS: the text that opens ===== */
+.announcement-card details p {
+  margin: 8px 0 0;                  /* small space above, none below */
+  padding-top: 8px;                 /* space between the line and the text */
+  border-top: 1px solid #ddd;       /* thin line separating it from the label */
+}

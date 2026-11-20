@@ -41,10 +41,10 @@ EXAMPLE:
 Minimum of 5 meaningful AI logs.
 -->
 
-## Entry 1: [Date]
-- **User story:**
-- **What I asked:**
-- **What the AI suggested:**
+## Entry 1: November 20, 2026
+- **User story:** View Latest Announcements in the Homepage.
+- **What I asked:** If i remove the card.append, what would happened.
+- **What the AI suggested:** The page would look empty, and i cannot see the error in the console.
 - **What I changed or rejected, and why:**
-- **How I tested it:**
-- **What I learned:**
+- **How I tested it:** AC1.1 passed (show latest announcements). AC1.2 passed(dates, announcement title, and a short description). AC1.3 passed after i added new data and checked in the console.
+- **What I learned:** console.log(announcents) checking data, checking code runs.
